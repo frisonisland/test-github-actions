@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: PR title
 run-name: Check PR title follow conventional commits 🚀
 on: [pull_request]
 jobs:
