@@ -1,0 +1,9 @@
+name: GitHub Actions Demo
+run-name: Check PR title follow conventional commits 🚀
+on: [pull_request]
+jobs:
+  Check-PR-title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conventional PR Title
+        uses: aslafy-z/conventional-pr-title-action@v3.2.0
