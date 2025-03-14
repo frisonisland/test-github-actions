@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: Conventional PR Title
         uses: aslafy-z/conventional-pr-title-action@v3.2.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
